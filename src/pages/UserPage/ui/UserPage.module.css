@@ -1,0 +1,60 @@
+.users{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 70px;
+    padding: 100px 0 100px 0;
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.btnLoad {
+    height: 33px;
+    width: 100%;
+    max-width: 510px;
+    background-color:  rgba(61, 114, 152, 1);
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.34);
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 40px;
+}
+.btnLoad:hover {
+    opacity: 0.8;
+}
+
+@media screen and (min-width: 1024px) {
+    .users {
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
+@media screen and (min-width: 992px) {
+    .users {
+
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .users {
+
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .users {
+
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
+
+
